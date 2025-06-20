@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #eef3f7; /* slightly lighter */
+  color: #2c2c2c; /* a bit darker */
+}
+
+header {
+  background-color: #244a6e; /* a bit brighter blue */
+  padding: 25px; /* slightly more padding */
+  text-align: center;
+}
+
+.link-header {
+  color: #f0f4f8; /* softer white */
+  text-decoration: none;
+  font-size: 26px; /* just a bit bigger */
+  font-weight: 700;
+}
+
+nav {
+  background-color: #f9fafb; /* lighter gray */
+  padding: 18px; /* a bit more padding */
+  text-align: center;
+  margin-top: 12px;
+  border-radius: 6px; /* subtle rounding */
+}
+
+.link-nav {
+  margin: 0 18px;
+  text-decoration: none;
+  color: #244a6e; /* match header color */
+  font-size: 19px; /* slight size bump */
+  font-weight: 600;
+}
+
+.link-nav:hover {
+  text-decoration: underline;
+  color: #4169e1; /* subtle color change on hover */
+}
+
+main {
+  text-align: center;
+  padding: 32px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 38px;
+  color: #244a6e;
+  margin-bottom: 14px;
+}
+
+p {
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+img {
+  margin-top: 22px;
+  border: 2.5px solid #bbb; /* slightly thicker, softer border */
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #244a6e;
+  padding: 24px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.social img {
+  margin: 0 12px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  width: 90px;  /* fixed width for uniform icons */
+  height: 90px;
+}
+
+.social img:hover {
+  transform: scale(1.12);
+}
+
